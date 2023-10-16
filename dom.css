@@ -1,0 +1,95 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .header-logo{
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .header-list ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-list ul li{
+    margin: 0 20px;
+    float: left;
+  }
+  
+  .header-list ul li a{
+    display: block;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  
+  .header-list ul li a:hover{
+      color: white;
+      background-color: bisque;
+      
+  }
+  
+  .top{
+    width: 100%;
+    height: 150px;
+    background-color: bisque;
+  }
+  
+  .container{
+    width: 85%;
+    margin: 0;
+  }
+  footer{
+    text-align: center;
+    background-color: #94ADD7;
+    color: white;
+    height: 120px;
+    text-align: center;
+  }
+  #footer{
+    display: none;
+  }
+  footer h1{
+    padding: 40px 0;
+  }
+  #left-nav{
+    width: 30%;
+    font-size: 20px;
+  }
+  .input-data{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #9EB384;
+    border: solid #9EB384 3px;
+    border-radius: 40px;
+    margin: 2px;
+    transition: 0.3s;
+  }
+  .input-data:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #9EB384;
+  }
+  #color-set{
+    float: right;
+    width: 65%;
+    text-align: center;
+  }
+  .color-content{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: solid white 5px;
+    border-bottom: double white;
+  }

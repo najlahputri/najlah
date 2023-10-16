@@ -1,0 +1,127 @@
+div{
+    background-color: pink;
+    padding-bottom: 0px;
+    justify-content: space-between;
+}
+div a{
+    background-color:bisque;
+}
+
+.navigasi{
+    background-color:pink;
+}
+.navigasi ul li{
+    list-style: none;
+    padding: 0px 20px;
+    position: relative;
+    display: inline-table;
+}
+.navigasi ul li:hover{
+    background-color: pink;
+}
+.navigasi ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: grey;
+    font-size: 14pt;
+}
+
+
+
+header {
+    background-color: pink;
+    color: white;
+    height: 90px;
+    padding-left: 20px;
+    overflow: hidden;
+    top: 0;
+}
+
+.header-list li {
+    list-style: none;
+}
+
+.header-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-bars {
+    display: none;
+}
+
+.header-logo {
+    margin: auto;
+    float: left;
+    font-size: 36px;
+    padding: 25px 10px;
+    letter-spacing: 5px;
+}
+
+.header-logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-logo:hover {
+    background-color: bisque;
+    color: white;
+}
+
+.header-list {
+    float: right;
+}
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+    height: 24px;
+}
+
+.header-list .list li:hover {
+    color: white;
+    background-color: bisque;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:768px)
+{
+    .list {
+        position: absolute;
+        display: block;
+        width: 0%;
+        top: 90px;
+        right: -100%;
+        transition: 0.4s;
+        background-color: white;
+        color: black;
+    }
+
+    .list li {
+        width: 90%;
+        color: black;
+    }
+
+    .header-list.list li:hover {
+        color:white;
+        background-color: black;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .header-bars {
+        display: block;
+        padding: 33px 20px;
+        height: 24px;
+        fill: white;
+    }
+
+    .header-bars:hover {
+        fill: black;
+        background-color: white;
+        transition: 0.3s ease-in-out;
+    }
+    
+}
